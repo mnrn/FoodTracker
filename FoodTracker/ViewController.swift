@@ -14,6 +14,7 @@ class ViewController: UIViewController {
   @IBOutlet weak var nameTextField: UITextField!
   @IBOutlet weak var mealNameLabel: UILabel!
   @IBOutlet weak var photoImageView: UIImageView!
+  @IBOutlet weak var ratingControl: RatingControl!
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -22,10 +23,6 @@ class ViewController: UIViewController {
     nameTextField.delegate = self
   }
   
-  // MARK: Actions
-  @IBAction func setDefaultLabelText(_ sender: UIButton) {
-    mealNameLabel.text = "Default Text"
-  }
   @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
     // Hide the keyboard.
     nameTextField.resignFirstResponder()
