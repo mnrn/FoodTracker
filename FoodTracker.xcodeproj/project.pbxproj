@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D01018724530EF00016F015 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D01018624530EF00016F015 /* Meal.swift */; };
 		0D48DABC2441926600CF72AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D48DABB2441926600CF72AC /* AppDelegate.swift */; };
 		0D48DABE2441926600CF72AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D48DABD2441926600CF72AC /* SceneDelegate.swift */; };
 		0D48DAC02441926600CF72AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D48DABF2441926600CF72AC /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D01018624530EF00016F015 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		0D48DAB82441926600CF72AC /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D48DABB2441926600CF72AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D48DABD2441926600CF72AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				0D48DABF2441926600CF72AC /* ViewController.swift */,
 				0D48DAC12441926600CF72AC /* Main.storyboard */,
 				0D48DAEB244860AB00CF72AC /* RatingControl.swift */,
+				0D01018624530EF00016F015 /* Meal.swift */,
 				0D48DAC42441927900CF72AC /* Assets.xcassets */,
 				0D48DAC62441927900CF72AC /* LaunchScreen.storyboard */,
 				0D48DAC92441927900CF72AC /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D01018724530EF00016F015 /* Meal.swift in Sources */,
 				0D48DAEC244860AB00CF72AC /* RatingControl.swift in Sources */,
 				0D48DAC02441926600CF72AC /* ViewController.swift in Sources */,
 				0D48DABC2441926600CF72AC /* AppDelegate.swift in Sources */,
