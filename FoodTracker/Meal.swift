@@ -12,7 +12,7 @@ class Meal {
   // MARK: Properties
   var name: String
   var photo: UIImage?
-  var ratng: Int
+  var rating: Int
   
   // MARK: Initializaton
   init?(name: String, photo: UIImage?, rating: Int) {
@@ -28,6 +28,6 @@ class Meal {
     
     self.name = name
     self.photo = photo
-    self.ratng = rating
+    self.rating = rating
   }
 }
